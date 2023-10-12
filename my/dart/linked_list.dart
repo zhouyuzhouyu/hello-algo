@@ -1,8 +1,4 @@
-class ListNode {
-  int val;
-  ListNode? next;
-  ListNode(this.val, [this.next]);
-}
+import 'list_node.dart';
 
 traverse(ListNode? head) {
   var cur = head;
